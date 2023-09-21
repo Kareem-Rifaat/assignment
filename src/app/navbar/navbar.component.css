@@ -1,0 +1,12 @@
+:root{
+--mainColor:#2C3D50!important;
+
+}
+.mainColor{
+  background-color: #2C3D50;
+}
+.bttn{
+  background-color: #1ABC9C;
+  border: 1px solid #fff;
+  border-radius: 12px;
+}

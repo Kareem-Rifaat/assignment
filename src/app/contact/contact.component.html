@@ -1,0 +1,98 @@
+<section class="container-fluid mainColor py-5 my-5 overflow-hidden">
+  <div
+    class="container my-5 py-5 text-center align-items-center justify-content-center"
+  >
+    <h1 class="text-center text-dark">CONATCT SECTION</h1>
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="brdr"></div>
+      <div class="">
+        <i class="fa-solid fa-star text-dark"></i>
+      </div>
+      <div class="brdr"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="container gy-4">
+      <form class="">
+        <div class="position-relative">
+          <label
+            for="userAge"
+            [class]="
+              isTrue == true
+                ? 'position-absolute lab d-block'
+                : 'position-absolute d-none'
+            "
+            >userName:</label
+          >
+          <input
+            (keydown)="isTruee()"
+            class="form-control my-5"
+            placeholder="userName"
+            type="text"
+            name=""
+            id=""
+          />
+        </div>
+        <div class="position-relative">
+          <label
+            for="userAge"
+            [class]="
+              isTrue == true
+                ? 'position-absolute lab d-block'
+                : 'position-absolute d-none'
+            "
+            >userAge:</label
+          >
+          <input
+            (click)="isTruee()"
+            class="form-control my-5"
+            placeholder="userAge"
+            type="text"
+            name=""
+            id=""
+          />
+        </div>
+        <div class="position-relative">
+          <label
+            for="userAge"
+            [class]="
+              isTrue == true
+                ? 'position-absolute lab d-block'
+                : 'position-absolute d-none'
+            "
+            >userEmail:</label
+          >
+          <input
+            (click)="isTruee()"
+            class="form-control my-5"
+            placeholder="userEmail"
+            type="text"
+            name=""
+            id=""
+          />
+        </div>
+        <div class="position-relative">
+          <label
+            for="userAge"
+            [class]="
+              isTrue == true
+                ? 'position-absolute lab d-block'
+                : 'position-absolute d-none'
+            "
+            >userPassword:</label
+          >
+          <input
+            (click)="isTruee()"
+            class="form-control my-5"
+            placeholder="userPassword"
+            type="text"
+            name=""
+            id=""
+          />
+        </div>
+
+        <button type="submit" class="btn btn-success">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>

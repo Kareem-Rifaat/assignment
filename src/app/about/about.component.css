@@ -1,0 +1,12 @@
+.mainColor{
+  background-color: #1ABC9C;
+}
+.brdr{
+  width: 100px;
+  height: 2px;
+  border: 2px solid white ;
+  margin:5px;
+}
+.ttop{
+  top: 25%
+}

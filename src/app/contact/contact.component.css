@@ -1,0 +1,19 @@
+.brdr {
+  width: 100px;
+  height: 2px;
+  border: 2px solid;
+  margin: 5px;
+}
+.lab {
+  transform: translate(20%);
+  animation: move 1s;
+  color: green;
+}
+@keyframes move {
+  0% {
+    transform: translate();
+  }
+  100% {
+    transform: translate(20%, -120%);
+  }
+}
